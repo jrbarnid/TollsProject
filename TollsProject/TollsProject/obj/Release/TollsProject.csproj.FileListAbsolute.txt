@@ -1,0 +1,8 @@
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Release\TollsProject.exe.config
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Release\TollsProject.exe
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Release\TollsProject.pdb
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Release\TollsProject.Form1.resources
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Release\TollsProject.Properties.Resources.resources
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Release\TollsProject.csproj.GenerateResource.Cache
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Release\TollsProject.exe
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Release\TollsProject.pdb

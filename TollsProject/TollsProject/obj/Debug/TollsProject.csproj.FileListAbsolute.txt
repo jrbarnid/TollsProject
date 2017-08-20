@@ -1,0 +1,10 @@
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Debug\TollsProject.exe.config
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Debug\TollsProject.exe
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Debug\TollsProject.pdb
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Debug\Newtonsoft.Json.dll
+D:\Code\TollsProject\TollsProject\TollsProject\bin\Debug\Newtonsoft.Json.xml
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.Form1.resources
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.Properties.Resources.resources
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.csproj.GenerateResource.Cache
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.exe
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.pdb
