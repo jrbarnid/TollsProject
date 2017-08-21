@@ -19,10 +19,27 @@ namespace TollsProject
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            string address = txtStreetAddress.Text + "+" + txtCity.Text + "+" + txtState.Text +
+            IEnumerable<Control> controls = GetAll(this, typeof(TextBox));
+            if (controls.Where(x => string.IsNullOrWhiteSpace(x.Text)).Count() == 0)
+            {
+                string address = txtStreetAddress.Text + "+" + txtCity.Text + "+" + txtState.Text +
                 "+" + txtZip.Text;
-            GoogleMapsService service = new GoogleMapsService();
-            service.Get(address);
+                GoogleMapsService service = new GoogleMapsService();
+                service.Get();
+            }
+            else
+            {
+                MessageBox.Show("All fields must be complete");
+            }
+        }
+
+        public IEnumerable<Control> GetAll(Control control, Type type)
+        {
+            var controls = control.Controls.Cast<Control>();
+
+            return controls.SelectMany(ctrl => GetAll(ctrl, type))
+                                      .Concat(controls)
+                                      .Where(c => c.GetType() == type);
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace TollsProject
 {
     class GoogleMapsService : GoogleService
     {
+        private string actualURL;
         protected override GoogleService.APITypes apiType
         {
             get
@@ -23,7 +25,7 @@ namespace TollsProject
 
         public GoogleMapsService()
         {
-            baseURL = "maps";
+            actualURL = (baseURL = "maps");
         }
 
         public string Origin
@@ -47,12 +49,18 @@ namespace TollsProject
             }
         }
 
-        override public void Get()
+        public void Get()
         {
             // use this.Origin
+            if (this.Origin != null)
+            {
+                HttpClient client = new HttpClient();
+                client.BaseAddress = new Uri(this.actualURL);
+                // HttpResponseMessage response = client.GetAsync();
+            }
         }
 
-        public static void Get(string input)
+        override public void Get(string input)
         {
             // use input
         }

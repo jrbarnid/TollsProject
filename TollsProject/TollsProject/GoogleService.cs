@@ -10,6 +10,7 @@ namespace TollsProject
     abstract class GoogleService
     {
         abstract protected APITypes apiType { get; set; }
+        protected const string outputFormat = "JSON";
         protected const string key = "AIzaSyBROdaynkU9wc15ztvINhJubWgZ-05nJxU";
         protected string baseURL {
             get

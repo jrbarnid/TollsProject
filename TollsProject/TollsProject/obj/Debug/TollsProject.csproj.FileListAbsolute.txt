@@ -8,3 +8,4 @@ D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.Properties
 D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.csproj.GenerateResource.Cache
 D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.exe
 D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.pdb
+D:\Code\TollsProject\TollsProject\TollsProject\obj\Debug\TollsProject.csprojResolveAssemblyReference.cache

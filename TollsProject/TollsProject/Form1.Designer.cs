@@ -36,7 +36,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtZip = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnOriginSubmit = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtDestZip = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtDestState = new System.Windows.Forms.TextBox();
+            this.txtDestCity = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtDestStreetAddress = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -103,22 +113,114 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Zip";
             // 
-            // btnSubmit
+            // btnOriginSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(128, 191);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
-            this.btnSubmit.TabIndex = 8;
-            this.btnSubmit.Text = "&Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            this.btnOriginSubmit.Location = new System.Drawing.Point(209, 204);
+            this.btnOriginSubmit.Name = "btnOriginSubmit";
+            this.btnOriginSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnOriginSubmit.TabIndex = 8;
+            this.btnOriginSubmit.Text = "&Submit";
+            this.btnOriginSubmit.UseVisualStyleBackColor = true;
+            this.btnOriginSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(125, 38);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Origin";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(332, 38);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Destination";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(283, 154);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Zip";
+            // 
+            // txtDestZip
+            // 
+            this.txtDestZip.Location = new System.Drawing.Point(322, 151);
+            this.txtDestZip.Name = "txtDestZip";
+            this.txtDestZip.Size = new System.Drawing.Size(100, 20);
+            this.txtDestZip.TabIndex = 16;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(281, 128);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(32, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "State";
+            // 
+            // txtDestState
+            // 
+            this.txtDestState.Location = new System.Drawing.Point(322, 125);
+            this.txtDestState.Name = "txtDestState";
+            this.txtDestState.Size = new System.Drawing.Size(100, 20);
+            this.txtDestState.TabIndex = 14;
+            // 
+            // txtDestCity
+            // 
+            this.txtDestCity.Location = new System.Drawing.Point(322, 98);
+            this.txtDestCity.Name = "txtDestCity";
+            this.txtDestCity.Size = new System.Drawing.Size(100, 20);
+            this.txtDestCity.TabIndex = 13;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(281, 101);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(24, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "City";
+            // 
+            // txtDestStreetAddress
+            // 
+            this.txtDestStreetAddress.Location = new System.Drawing.Point(322, 73);
+            this.txtDestStreetAddress.Name = "txtDestStreetAddress";
+            this.txtDestStreetAddress.Size = new System.Drawing.Size(100, 20);
+            this.txtDestStreetAddress.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(240, 76);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(76, 13);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "Street Address";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.btnSubmit);
+            this.ClientSize = new System.Drawing.Size(528, 280);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtDestZip);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtDestState);
+            this.Controls.Add(this.txtDestCity);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtDestStreetAddress);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnOriginSubmit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtZip);
             this.Controls.Add(this.label3);
@@ -144,7 +246,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtZip;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnOriginSubmit;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtDestZip;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtDestState;
+        private System.Windows.Forms.TextBox txtDestCity;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtDestStreetAddress;
+        private System.Windows.Forms.Label label10;
     }
 }
 
