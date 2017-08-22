@@ -12,17 +12,9 @@ namespace TollsProject
         abstract protected APITypes apiType { get; set; }
         protected const string outputFormat = "JSON";
         protected const string key = "AIzaSyBROdaynkU9wc15ztvINhJubWgZ-05nJxU";
-        protected string baseURL {
-            get
-            {
-                return baseURL;
-            }
-            set
-            {
-                string.Format(@"https://{0}.googleapis.com/{0}/api/", value);
-            }
-        }
+        protected string baseURL = "https://{0}.googleapis.com/{0}/api/";
 
+        abstract public void Get();
         abstract public void Get(string input);
 
         [Flags]

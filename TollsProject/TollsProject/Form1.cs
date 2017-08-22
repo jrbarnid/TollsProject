@@ -25,6 +25,7 @@ namespace TollsProject
                 string address = txtStreetAddress.Text + "+" + txtCity.Text + "+" + txtState.Text +
                 "+" + txtZip.Text;
                 GoogleMapsService service = new GoogleMapsService();
+                service.Origin = address;
                 service.Get();
             }
             else
